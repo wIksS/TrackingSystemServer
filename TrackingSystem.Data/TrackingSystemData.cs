@@ -45,12 +45,19 @@ namespace TrackingSystem.Data
             get { return this.GetRepository<Group>(); }
         }
 
-
         public IRepository<Coordinate> Coordinates
         {
             get
             {
                 return this.GetRepository<Coordinate>();
+            }
+        }
+
+        public IRepository<Event> Events
+        {
+            get
+            {
+                return this.GetRepository<Event>();
             }
         }
 

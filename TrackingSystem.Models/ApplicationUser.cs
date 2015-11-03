@@ -12,9 +12,11 @@ namespace TrackingSystem.Models
     public abstract class ApplicationUser : IdentityUser
     {
         private ICollection<Coordinate> coordinates;
+        private ICollection<Event> events;
 
         public ApplicationUser()
         {
+            this.Events = new HashSet<Event>();
             this.Coordinates = new HashSet<Coordinate>();
         }
 
@@ -45,6 +47,19 @@ namespace TrackingSystem.Models
             set
             {
                 this.coordinates = value;
+            }
+        }
+
+
+        public virtual ICollection<Event> Events
+        {
+            get
+            {
+                return this.events;
+            }
+            set
+            {
+                this.events = value;
             }
         }
     }
