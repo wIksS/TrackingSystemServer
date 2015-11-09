@@ -59,6 +59,7 @@ namespace TrackingSystem.Controllers
                 teacher.Group = group;
             }
 
+            teacher.Group.Teacher = teacher;
             teacher.Group.Students.Add(student);
             student.Group = teacher.Group;
             Data.Groups.SaveChanges();

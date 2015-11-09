@@ -12,11 +12,19 @@ namespace TrackingSystem.Infrastructure
 
         public static void AddUser(string connectionId, string userName)
         {
-            userConnectionsDict.Add(userName, connectionId);
+            if (!userConnectionsDict.ContainsKey(userName))
+            {
+                userConnectionsDict.Add(userName, connectionId);
+            }
         }
         public static string GetUserConnection(string userName)
         {
-            return userConnectionsDict[userName];
+            if (userConnectionsDict.ContainsKey(userName))
+            {
+                return userConnectionsDict[userName];                
+            }            
+
+            return String.Empty;
         }
     }
 }

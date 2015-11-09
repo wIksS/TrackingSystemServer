@@ -174,3 +174,11 @@ C:\Users\viktor.d\Desktop\TrackingSystem\TrackingSystem\TrackingSystem\bin\Micro
 C:\Users\viktor.d\Desktop\TrackingSystem\TrackingSystem\TrackingSystem\bin\Microsoft.Owin.Cors.dll
 C:\Users\viktor.d\Desktop\TrackingSystem\TrackingSystem\TrackingSystem\bin\Microsoft.AspNet.SignalR.Owin.xml
 C:\Users\viktor.d\Desktop\TrackingSystem\TrackingSystem\TrackingSystem\bin\Microsoft.Owin.Cors.xml
+C:\Users\Viktor\Desktop\TrackingSystem\TrackingSystemServer\TrackingSystem\bin\Content\unknown.jpg
+C:\Users\Viktor\Desktop\TrackingSystem\TrackingSystemServer\TrackingSystem\bin\Images\unknown.jpg
+C:\Users\Viktor\Desktop\TrackingSystem\TrackingSystemServer\TrackingSystem\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Viktor\Desktop\TrackingSystem\TrackingSystemServer\TrackingSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Viktor\Desktop\TrackingSystem\TrackingSystemServer\TrackingSystem\bin\Microsoft.Owin.Cors.dll
+C:\Users\Viktor\Desktop\TrackingSystem\TrackingSystemServer\TrackingSystem\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Viktor\Desktop\TrackingSystem\TrackingSystemServer\TrackingSystem\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Viktor\Desktop\TrackingSystem\TrackingSystemServer\TrackingSystem\bin\Microsoft.Owin.Cors.xml
